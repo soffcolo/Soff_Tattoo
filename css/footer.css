@@ -1,0 +1,14 @@
+:root{--black: #111;}
+
+.footer__paragraph{
+    width: 98.2%;
+    height: 50px;
+    color: whitesmoke;
+    background-color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 25px;
+    font-weight: 600;
+    font-size: 23px;
+}

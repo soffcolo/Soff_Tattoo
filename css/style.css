@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+html{margin: 0;padding: 0;font-family: 'Varela Round';}
+:root{
+    --red: #ec2f3f;
+}
+
+body{
+    background: linear-gradient(0deg, rgba(181,181,181,1) 0%, rgba(255,255,255,1) 50%, rgba(181,181,181,1) 100%);    
+}
+
+main{
+    height: 950px;
+    width: 99.8%;
+    display: flex;
+    align-items: center;
+}
+
+/* Contenedor principal (De los elementos dentro de la etiqueta main) */
+.main__container{
+    width: 100%;
+}
+
+/* Franja negra */
+.main__bg{
+    width: 100%;
+    background: var(--black);
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: -150px;
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.main__bg img{
+    width: 555px;
+    padding-left: 90px;
+}
+
+/* Contenedor del texto*/
+.main__content_text{
+    color: white;
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* SOFF LINARES */
+.main__content__name{
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* TATTOO */
+.main__content__tattoo{
+    font-size: 80px;
+    font-weight: 800;
+    color: var(--red); 
+    text-transform: uppercase;
+}
+
+/* Texto */
+.main__text__paragraph{
+    width: 75%;
+    display: inline-block;
+    margin: auto;
+}
+
+/* Estilos del parrafo */
+.main__text__paragraph p{
+    text-align: left;
+    font-size: 18px;
+}
+
+/* Mas info contenedor */
+.main__mas_info{
+    color: white;
+    margin: 0 auto;
+    width: 27%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background: var(--red);
+    transition: all .3s;
+}
+
+/* Mas info estilos texto */
+.main__mas_info p{
+    margin: auto;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* Mas info parrafo efecto */
+.main__mas_info:hover{
+    background: white;
+    color: var(--red);
+}
+
+/* Logo Blanco y Negro */
+.main__logo img{
+    width: 85%;
+}
+
+/* Contenedor general de iconos */
+.social__media{
+    display: flex;
+    align-items: center;
+    width: 18%;
+    justify-content: space-between;
+    margin: 0 0 30px 50px;
+}
+
+/* Contenedor de solo los iconos */
+.social__media div{
+    display: flex;
+}  
+
+/* Tamaño de los iconos */
+.social__media img{
+    width: 80px;
+    height: 80px;
+}
